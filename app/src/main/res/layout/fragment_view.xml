@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#592f2a"
+    tools:context=".ViewFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/timeButton"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#F9A825"
+        android:onClick="popTimepicker"
+        android:text="alarm 1"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#F9A825"
+        android:onClick="popTimepicker2"
+        android:text="alarm 2"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="250dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:layout_weight="1"
+            android:backgroundTint="#8BC34A"
+            android:text="Start"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:layout_weight="1"
+            android:backgroundTint="#F44336"
+            android:text="stop"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</FrameLayout>
